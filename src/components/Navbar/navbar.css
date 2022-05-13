@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  z-index: 5;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  padding: 10px 50px;
+  transition: all 1s ease-in-out;
+  background-color: #a3caeb;
+}
+@media (max-width: 600px) {
+  .header {
+    padding: 10px 10px;
+  }
+}
+.header .nav-link {
+  color: var(--mainBlue);
+  font-size: 1.1rem;
+  /* line-height: 3rem; */
+}
+
+.header .navbar-nav {
+  padding: 5px;
+}
+/* .header .nav-name {
+  color: var(--mainBlue);
+  font-size: 1.5rem;
+  transition: all 0.6s ease-in-out;
+} */
+.header .nav-icon {
+  color: var(--mainYellow);
+  font-size: 2rem;
+  transition: all 0.6s ease-in-out;
+}
+.header .my-cart .nav-item .count {
+  background-color: transparent;
+  border-radius: 50%;
+  right: 3px;
+  padding: 0px 4px 0px 4px;
+  color: var(--mainDanger);
+  top: 3px;
+  font-size: 0.7rem;
+  position: absolute;
+  border: 1px solid var(--mainDanger);
+  margin-left: 1px;
+}
+.header.sticky {
+  animation-name: silde_to_top;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+.header.sticky .my-cart .sticky:hover {
+  background-color: var(--mainWhite);
+  color: var(--mainBlue);
+}
+@keyframes silde_to_top {
+  0% {
+    top: 10%;
+    opacity: 0.5;
+  }
+  100% {
+    top: 0%;
+  }
+}
+.header.sticky {
+  background-color: var(--middleBlue);
+  z-index: 4;
+}
+
+.header .nav-item .sticky {
+  color: #fff;
+}
+
+.header .nav-item .button.sticky {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.header .fa-bars {
+  color: var(--mainBlue);
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+}
+
+.header .fa-bars:hover {
+  color: #fff;
+  background-color: var(--mainBlue);
+}

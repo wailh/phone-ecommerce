@@ -1,0 +1,132 @@
+.footer {
+  padding-top: 100px;
+  font-size: 1.1rem;
+}
+@media (max-width: 1200px) {
+  .footer {
+    padding-top: 50px;
+  }
+}
+
+.footer .panel {
+  margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+  .footer .panel {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer .site-info {
+    margin-bottom: 20px;
+  }
+}
+
+.footer .site-info h2 {
+  font-weight: bold;
+  color: #08526d;
+  margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .footer .site-info h2 {
+    margin-bottom: 15px;
+  }
+}
+
+.footer .site-info h2 span {
+  color: #ec1c23;
+}
+
+@media (max-width: 1200px) {
+  .footer .site-info p {
+    margin-bottom: 5px;
+  }
+}
+
+.footer .site-info a {
+  color: #08526d;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer .site-info a:before {
+  font-family: "FontAwesome";
+  content: "\f138";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+  .footer .helpfullinks {
+    margin-bottom: 15px;
+  }
+}
+
+.footer .helpfullinks h4 {
+  color: #08526d;
+}
+
+.footer .helpfullinks ul {
+  display: inline-block;
+}
+
+.footer .helpfullinks ul i {
+  margin-right: 5px;
+}
+
+.footer .helpfullinks ul li:before {
+  font-family: "FontAwesome";
+  content: "\f054";
+  display: inline-block;
+  margin-right: 5px;
+  color: #08526d;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  .footer .contact {
+    margin-bottom: 15px;
+  }
+}
+
+.footer .contact h4 {
+  color: #08526d;
+}
+
+.footer .contact ul li {
+  margin-bottom: 24px;
+}
+@media (max-width: 1200px) {
+  .footer .contact ul li {
+    margin-bottom: 15px;
+  }
+}
+
+/* End Section Footer */
+
+/* start copyright */
+
+.copyright {
+  border-top: 1px solid #c0c0c0;
+  padding: 20px;
+  margin-top: 70px;
+}
+@media (max-width: 1200px) {
+  .copyright {
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+.copyright ul {
+  /* hadi dima ydirha elzero */
+  margin: 0;
+}
+
+.copyright ul li {
+  display: inline-block;
+}
+
+.copyright ul li a {
+  color: var(--mainBlue);
+}
